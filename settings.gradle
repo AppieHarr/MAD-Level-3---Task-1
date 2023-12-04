@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+//        https://github.com/a914-gowtham/compose-ratingbar/blob/main/README.md
+        maven { url "https://jitpack.io" }
+    }
+}
+rootProject.name = "MAD"
+include ':app'
